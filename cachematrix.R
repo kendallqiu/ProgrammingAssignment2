@@ -1,5 +1,4 @@
-## https://github.com/xiangxing98/ProgrammingAssignment2.git
-## 1st commit SHA-1 hash identifier: b05b5096e135ae3ae46020952cc914cbce168841
+## 1st commit SHA-1 hash identifier: 46a3a5b5887171c035fd977f8b28cfa416bc3b19
 ## Assignment 2: Lexical Scoping--caching the inverse of a matrix
 
 ## The first function creates a special "matrix", which is a list containing a function to set/get the value of the matrix; set/get the value of the inverse of the matrix
@@ -13,8 +12,8 @@ makeCacheMatrix <- function(x = matrix()) {
     setinverse <- function(inverse) a <<- inverse
     getinverse <- function() a
     list(
-        set = set,
         get = get,
+        set = set,
         setinverse = setinverse,
         getinverse = getinverse)
 }
